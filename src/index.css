@@ -5,6 +5,23 @@ body {
     margin: 0;
 }
 
+.btn {
+    cursor: pointer;
+}
+
+.clicked {
+    color: #7f8c8d;
+}
+
+.form,
+.greetings {
+    display: none;
+}
+
+.showing {
+    display: block;
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;
