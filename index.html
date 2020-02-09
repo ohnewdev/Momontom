@@ -8,11 +8,28 @@
 </head>
 
 <body>
+  <!-- clock -->
+  <div class="js-clock">
+    <h1>00:00</h1>
+  </div>
 
+  <!-- todo -->
+  <h2>Tasks</h2>
+  <form class="js-toDoForm">
+    <input placeholder="Add task" />
+  </form>
+  <h2>Pending...</h2>
+  <ul class="js-toDoListPending"></ul>
+  <h2>Done</h2>
+  <ul class="js-toDoListDone"></ul>
+
+  <!-- weather -->
   <span class="js-weather"></span>
-
+  <!-- js -->
+  <script src="src/clock.js"></script>
   <script src="src/bg.js"></script>
   <script src="src/weather.js"></script>
+  <script src="src/todo.js"></script>
 </body>
 
 </html>

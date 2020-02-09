@@ -1,24 +1,26 @@
-
 body {
+    /* font-family: "Lobster Two", cursive; */
+    /* background: linear-gradient(to top, #9cecfb, #65c7f7, #0052d4); */
     background-color: #34495e;
+    margin: 0;
 }
 
-@keyframes fadeIn{
-    from{
+@keyframes fadeIn {
+    from {
         opacity: 0;
     }
-    to{
+
+    to {
         opacity: 1;
     }
 }
 
-.bgImage{
+.bgImage {
     position: absolute;
-    top:0;
-    left:0;
-    width:100%;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 100%;
-    z-index:-1;
+    z-index: -1;
     animation: fadeIn .5s linear;
 }
-
